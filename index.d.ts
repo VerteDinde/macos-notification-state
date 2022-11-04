@@ -1,4 +1,4 @@
-declare module 'macos-notification-state' {
+declare module '@vertedinde/macos-notification-state' {
   export function getNotificationState(): 'UNKNOWN_ERROR' | SessionState | 'DO_NOT_DISTURB';
   export function getSessionState():  SessionState;
   export function getDoNotDisturb(): boolean;
